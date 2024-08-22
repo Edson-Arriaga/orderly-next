@@ -21,7 +21,7 @@ export default function OrdersPage() {
             <Logo />
 
             {data.length ? (
-                <div className='grid grid-cols-2 gap-5 max-w-5xl mx-auto mt-10'>
+                <div className='grid grid-cols-2 gap-5 max-w-5xl mx-auto mt-10 mb-10'>
                     {data.map(order => (
                         <LatestOrderItem 
                             key={order.id}
